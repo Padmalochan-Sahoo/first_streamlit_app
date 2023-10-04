@@ -60,8 +60,8 @@ except URError as e:
 
 #let's normalize little more this response
 
-fruityvice_normalize = pandas.json_normalize(fruityvice_response.json())
-streamlit.dataframe(fruityvice_normalize) 
+#fruityvice_normalize = pandas.json_normalize(fruityvice_response.json())
+#streamlit.dataframe(fruityvice_normalize) 
 
 # import snowflake.connector
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
