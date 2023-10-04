@@ -64,3 +64,5 @@ streamlit.write('Thanks for adding:', add_my_fruit)
 
 #for test this line 
 my_cur.execute("insert into fruit_load_list values('for streamlit')")
+
+streamlit.stop()
